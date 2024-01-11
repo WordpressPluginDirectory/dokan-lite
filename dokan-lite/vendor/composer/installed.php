@@ -11,14 +11,12 @@
     ),
     'versions' => array(
         'appsero/client' => array(
-            'pretty_version' => 'dev-develop',
-            'version' => 'dev-develop',
+            'pretty_version' => 'v1.4.0',
+            'version' => '1.4.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../appsero/client',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
-            'reference' => '3b68f17ac29d56d14a78cc4817c4b80f692e4e3a',
+            'aliases' => array(),
+            'reference' => '43289d79f1d55de687f667b17a2834b986cc7b6e',
             'dev_requirement' => false,
         ),
         'jakeasmith/http_build_url' => array(
