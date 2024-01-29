@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3756127da4a96e154be69969f483f6a9
+class ComposerStaticInit326bc1a2b0e5b033fd6766fa2cf94fd7
 {
     public static $files = array (
         'b45b351e6b6f7487d819961fef2fda77' => __DIR__ . '/..' . '/jakeasmith/http_build_url/src/http_build_url.php',
@@ -37,7 +37,6 @@ class ComposerStaticInit3756127da4a96e154be69969f483f6a9
         'Appsero\\Client' => __DIR__ . '/..' . '/appsero/client/src/Client.php',
         'Appsero\\Insights' => __DIR__ . '/..' . '/appsero/client/src/Insights.php',
         'Appsero\\License' => __DIR__ . '/..' . '/appsero/client/src/License.php',
-        'Appsero\\Updater' => __DIR__ . '/..' . '/appsero/client/src/Updater.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'WeDevs\\Dokan\\Abstracts\\DokanBackgroundProcesses' => __DIR__ . '/../..' . '/includes/Abstracts/DokanBackgroundProcesses.php',
         'WeDevs\\Dokan\\Abstracts\\DokanCache' => __DIR__ . '/../..' . '/includes/Abstracts/DokanCache.php',
@@ -287,9 +286,9 @@ class ComposerStaticInit3756127da4a96e154be69969f483f6a9
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3756127da4a96e154be69969f483f6a9::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3756127da4a96e154be69969f483f6a9::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3756127da4a96e154be69969f483f6a9::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit326bc1a2b0e5b033fd6766fa2cf94fd7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit326bc1a2b0e5b033fd6766fa2cf94fd7::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit326bc1a2b0e5b033fd6766fa2cf94fd7::$classMap;
 
         }, null, ClassLoader::class);
     }
