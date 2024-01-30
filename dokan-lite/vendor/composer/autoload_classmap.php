@@ -9,6 +9,7 @@ return array(
     'Appsero\\Client' => $vendorDir . '/appsero/client/src/Client.php',
     'Appsero\\Insights' => $vendorDir . '/appsero/client/src/Insights.php',
     'Appsero\\License' => $vendorDir . '/appsero/client/src/License.php',
+    'Appsero\\Updater' => $vendorDir . '/appsero/updater/src/Updater.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'WeDevs\\Dokan\\Abstracts\\DokanBackgroundProcesses' => $baseDir . '/includes/Abstracts/DokanBackgroundProcesses.php',
     'WeDevs\\Dokan\\Abstracts\\DokanCache' => $baseDir . '/includes/Abstracts/DokanCache.php',
