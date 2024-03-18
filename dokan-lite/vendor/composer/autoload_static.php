@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc5b00a4ced3070757f1d6e304d20a0dc
+class ComposerStaticInit2e160c54d2ac44783363888a0909dd7f
 {
     public static $files = array (
         'b45b351e6b6f7487d819961fef2fda77' => __DIR__ . '/..' . '/jakeasmith/http_build_url/src/http_build_url.php',
@@ -289,9 +289,9 @@ class ComposerStaticInitc5b00a4ced3070757f1d6e304d20a0dc
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc5b00a4ced3070757f1d6e304d20a0dc::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc5b00a4ced3070757f1d6e304d20a0dc::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitc5b00a4ced3070757f1d6e304d20a0dc::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit2e160c54d2ac44783363888a0909dd7f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit2e160c54d2ac44783363888a0909dd7f::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit2e160c54d2ac44783363888a0909dd7f::$classMap;
 
         }, null, ClassLoader::class);
     }
